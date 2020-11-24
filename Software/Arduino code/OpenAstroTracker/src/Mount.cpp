@@ -1898,6 +1898,7 @@ void Mount::interruptLoop()
 // Process any stepper changes. 
 /////////////////////////////////
 void Mount::loop() {
+  long now = millis();
   bool raStillRunning = false;
   bool decStillRunning = false;
   

@@ -90,9 +90,9 @@
   #define RA_DRIVER_ADDRESS 0b00  // Set by MS1/MS2. LOW/LOW in this case
 
   #define DEC_STEP_PIN 16  // STEP
-  #define DEC_DIR_PIN  17  // DIR
+  #define DEC_DIR_PIN  18  // DIR
   #define DEC_EN_PIN   5   // Enable
-  #define DEC_DIAG_PIN 18  // only needed for autohome function
+  #define DEC_DIAG_PIN 17  // only needed for autohome function
   #define DEC_MS0_PIN  15
   #define DEC_MS1_PIN  8
   #define DEC_MS2_PIN  7

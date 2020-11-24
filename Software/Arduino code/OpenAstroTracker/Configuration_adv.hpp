@@ -209,8 +209,8 @@
 //
 // SETTINGS
 //
-  #define INFRA_SSID "YourSSID"
-  #define INFRA_WPAKEY "YourWPAKey"
+  #define INFRA_SSID "Contents May Differ_IoT"
+  #define INFRA_WPAKEY "L0s p0ll0s d3 m1 c4zu3l4"
   #define OAT_WPAKEY "superSecret"
   #define HOSTNAME "OATerScope"
 
@@ -251,11 +251,11 @@
 //
 // DEBUG OUTPUT
 //
-#define DEBUG_LEVEL (DEBUG_NONE)
+// #define DEBUG_LEVEL (DEBUG_NONE)
 // #define DEBUG_LEVEL (DEBUG_STEPPERS|DEBUG_MOUNT)
 // #define DEBUG_LEVEL (DEBUG_INFO|DEBUG_MOUNT|DEBUG_GENERAL)
 // #define DEBUG_LEVEL (DEBUG_SERIAL|DEBUG_WIFI|DEBUG_INFO|DEBUG_MOUNT|DEBUG_GENERAL)
-// #define DEBUG_LEVEL (DEBUG_ANY)
+#define DEBUG_LEVEL (DEBUG_ANY)
 // #define DEBUG_LEVEL (DEBUG_INFO|DEBUG_MOUNT|DEBUG_GENERAL)
 //
 // Bit Name                 Output
